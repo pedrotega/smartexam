@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Smart Exam Webpage</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a onclick="goLogin()">Login</a></li>
+                <li><a onclick="window.location.href = 'student_drive.html'">Drive smart Test</a></li>
+                <li><a onclick="window.location.href = 'student_history.html'">History smart Exam</a></li>
+                <li><a onclick="window.location.href = 'student_math.html'">Math smart Exam</a></li>
+            </ul>
+        </nav>
+        <div class="window active">
+            <h1>Students' webpage</h1>
+            <h3>Drive Smart Test</h3>
+            <button class="regularButton" onclick="showQuestions()">Start test</button>
+            <div id="questions"></div>
+        </div>
+
+    <script src="src/js/main.js"></script>
+    <script src="src/js/student_drive.js"></script>
+    </body>
+</html>

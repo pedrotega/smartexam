@@ -1,0 +1,42 @@
+[
+    {
+        "address": "0x062EbF0CeEC6Ce097D728E0D690a6713E4877a30",
+        "password": "9e2ca84ee75c051f94e7baaf9ab6f95d1eb9d55f7c7fb9532f833893f40cf639"
+    },
+    {
+        "address": "0xD2E1fdDe206A3d06fCadA935b42760fdf711dFF6",
+        "password": "2737dc8d532ecd76302be36665c8716cb1c95016294fa8a5a4eaee9408d71548"
+    },
+    {
+        "address": "0xa4b32F0c4383D26aC8FE2D8F79E721dBbb27ccF8",
+        "password": "471a60a6332cf9cc5b47d7242f4420a6302acac37c4434c2573196244c295daa"
+    },
+    {
+        "address": "0x58f648E10157320e5e44AFcf7c65B11a897a34Ec",
+        "password": "822241b52a84b826590e656d45534782f53453fb7098dbc85cb4c58bd5ea124e"
+    },
+    {
+        "address": "0x21843b824B1f8C7BABAdCfd67719403CA834c0D5",
+        "password": "fab945af6e010e5372c5caff02443a0b1e83cc98d465f98e75444df3cb354ad1"
+    },
+    {
+        "address": "0x9e633f4aF39d8DA50e3B620Ffe52F6Bd252E0cc0",
+        "password": "bf9556c3083afd436c7a80a30b5be87e6f2f32744ac25a64efac0018f8755a4c"
+    },
+    {
+        "address": "0x129Ba35600C27a478B7F9eC8C05B5ce1Cfa7A0C6",
+        "password": "86f20bbd4ba1f7258cd96b61606dc606b88040efc15ac4de2960f9b94deae092"
+    },
+    {
+        "address": "0x5c0B20b33dF04bBBE7413be1B57C86cCede14dFC",
+        "password": "e2c924ee67fc277f9486e6e7c364ce7a799e0a5821116a40da000b8c61c5b1b2"
+    },
+    {
+        "address": "0x01005776Fd9c5024d168faa12Eb08A6291cE3B6E",
+        "password": "0c96d0a14a5e21c95cea574bd0bef1738f537c0d2254745ceef030c9ee96d654"
+    },
+    {
+        "address": "0x6CB4b4a829D8Ae6b0FCA6c4EB592667a78001CA9",
+        "password": "976ce20be82c53b304e375ed74591f7f7742927e76546ac3a4c3363a77de31bb"
+    }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Smart Exam Webpage</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a onclick="goLogin()">Login</a></li>
+                <li><a onclick="window.location.href = 'owner_drive.html'">Drive smart Test</a></li>
+                <li><a onclick="window.location.href = 'owner_history.html'">History smart Exam</a></li>
+                <li><a onclick="window.location.href = 'owner_math.html'">Math smart Exam</a></li>
+            </ul>
+        </nav>
+
+        <div class="active window">
+            <h1>Owner's webpage</h1>
+            <h3>Math Smart Exam</h3>
+            <div class="form-container">
+                <form id="add-professor-form" class="inline-form">
+                    <h1>Add Professor</h1>
+                    <label for="addProf">Professor's address:</label>
+                    <input type="text" id="addProf" name="address" required>
+                    <br>
+                    <input type="submit" value="Add">
+                    <div id="error-message"></div>
+                </form>
+                <form id="delete-professor-form" class="inline-form">
+                    <h1>Delete Professor</h1>
+                    <label for="delProf">Professor's address:</label>
+                    <input type="text" id="delProf" name="address" required>
+                    <br>
+                    <input type="submit" class="delete-button" value="Delete">
+                    <div id="error-message-delete"></div>
+                </form>
+        </div>  
+        <button class="regularButton" onclick="showProfessors()">Show registered professors</button>
+        <div id="professors"></div>
+        <br>
+        <button class="regularButton" onclick="showExamsToMint()">Show exams to mint</button>
+        <div id="exams2mint"></div>
+        </div>
+
+        <script src="src/js/main.js"></script>
+        <script src="src/js/owner_math.js"></script>
+    </body>
+</html>

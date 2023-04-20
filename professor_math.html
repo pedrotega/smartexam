@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Smart Exam Webpage</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="src/css/style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a onclick="goLogin()">Login</a></li>
+                <li><a onclick="window.location.href = 'professor_drive.html'">Drive smart Test</a></li>
+                <li><a onclick="window.location.href = 'professor_history.html'">History smart Exam</a></li>
+                <li><a onclick="window.location.href = 'professor_math.html'">Math smart Exam</a></li>
+            </ul>
+        </nav>
+        <div class="window active">
+            <h1>Professors' webpage</h1>
+            <h3>Math Smart Exam</h3>
+            <div class="form-container">
+                <form id="add-question-form" class="inline-form">
+                    <h1>Add question</h1>
+                    <label for="question">Question:</label>
+                    <input type="text" id="question" required>
+                    <br>
+                    <input type="submit" value="Add">
+                    <div id="error-message"></div>
+                </form>
+                <form id="delete-question-form" class="inline-form">
+                    <h1>Delete Question</h1>
+                    <label for="delQuestion">Question's number:</label>
+                    <input type="text" id="delQuestion" required>
+                    <br>
+                    <input type="submit" class="delete-button" value="Delete">
+                    <div id="error-message-delete"></div>
+                </form>
+            </div>
+            <button class="regularButton" onclick="showQuestions()">Show registered questions</button>
+            <div id="questions"></div>
+        </div>
+        
+        <script src="src/js/main.js"></script>
+        <script src="src/js/professor_math.js"></script>
+    </body>
+</html>

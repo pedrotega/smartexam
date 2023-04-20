@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "@thirdweb-dev/storage": "^1.1.2",
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.1.1",
+    "ipfs-mini": "^1.1.5",
+    "nft.storage": "^7.0.3",
+    "yarn": "^1.22.19"
+  }
+}
